@@ -7,6 +7,7 @@ target 'HackatonFintech' do
   pod 'Siesta', '~> 1.0'
   pod 'Siesta/UI', '~> 1.0'
   pod 'Siesta/Alamofire', '~> 1.0'
+  pod 'SwiftyJSON'
   # Pods for HackatonFintech
 
   target 'HackatonFintechTests' do

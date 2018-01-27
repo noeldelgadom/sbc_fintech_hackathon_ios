@@ -8,16 +8,19 @@ PODS:
   - Siesta/Core (1.3.1)
   - Siesta/UI (1.3.1):
     - Siesta/Core
+  - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Siesta (~> 1.0)
   - Siesta/Alamofire (~> 1.0)
   - Siesta/UI (~> 1.0)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Siesta: 47460ba8b964881b7db532a0e640a6c703959c23
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: a7fb72aa72bc13c0fe141fb9702d7e91b771d0e7
+PODFILE CHECKSUM: 6fb2e6382e9e479158cb9a623319848160896571
 
 COCOAPODS: 1.4.0

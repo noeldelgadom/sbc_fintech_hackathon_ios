@@ -19,6 +19,11 @@
 		AE7EB619201C172C000AB1EF /* HackatonFintechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB618201C172C000AB1EF /* HackatonFintechTests.swift */; };
 		AE7EB624201C172C000AB1EF /* HackatonFintechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB623201C172C000AB1EF /* HackatonFintechUITests.swift */; };
 		AE7EB632201C2B3C000AB1EF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE7EB631201C2B3B000AB1EF /* Podfile */; };
+		AE7EB639201C2D51000AB1EF /* SigninController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB638201C2D51000AB1EF /* SigninController.swift */; };
+		AE7EB63C201C2D95000AB1EF /* SinupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB63B201C2D95000AB1EF /* SinupController.swift */; };
+		AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB65C201C3AD7000AB1EF /* API.swift */; };
+		AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */; };
+		AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB660201CDABA000AB1EF /* ChargePayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = AE7EB5FC201C172B000AB1EF;
 			remoteInfo = HackatonFintech;
+		};
+		AE7EB647201C34B5000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9154DD314C2C3B68C13B155AAFAEC985;
+			remoteInfo = Alamofire;
+		};
+		AE7EB649201C34B5000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D508ADDD8656D8A97F8ED4324D686951;
+			remoteInfo = "Pods-HackatonFintech";
+		};
+		AE7EB64B201C34B5000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C54884525F6B614107A5188D3AC2A4FE;
+			remoteInfo = "Pods-HackatonFintechTests";
+		};
+		AE7EB64D201C34B5000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8875E2DD5107191717566F92739FD2BE;
+			remoteInfo = "Pods-HackatonFintechUITests";
+		};
+		AE7EB64F201C34B5000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE32C158C2CF63B9B4D54FA296109600;
+			remoteInfo = Siesta;
+		};
+		AE7EB658201C38AF000AB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BDD2BCB23ED22583295FF1B8B7C9B49;
+			remoteInfo = SwiftyJSON;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,7 +108,13 @@
 		AE7EB61F201C172C000AB1EF /* HackatonFintechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackatonFintechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7EB623201C172C000AB1EF /* HackatonFintechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackatonFintechUITests.swift; sourceTree = "<group>"; };
 		AE7EB625201C172C000AB1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE7EB631201C2B3B000AB1EF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AE7EB631201C2B3B000AB1EF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE7EB638201C2D51000AB1EF /* SigninController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninController.swift; sourceTree = "<group>"; };
+		AE7EB63B201C2D95000AB1EF /* SinupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinupController.swift; sourceTree = "<group>"; };
+		AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		AE7EB65C201C3AD7000AB1EF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		AE7EB660201CDABA000AB1EF /* ChargePayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePayController.swift; sourceTree = "<group>"; };
 		EC478E7FCD50E49D451595E0 /* Pods-HackatonFintechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackatonFintechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackatonFintechTests/Pods-HackatonFintechTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +159,7 @@
 		AE7EB5F4201C172B000AB1EF = {
 			isa = PBXGroup;
 			children = (
+				AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */,
 				AE7EB631201C2B3B000AB1EF /* Podfile */,
 				AE7EB5FF201C172B000AB1EF /* HackatonFintech */,
 				AE7EB617201C172C000AB1EF /* HackatonFintechTests */,
@@ -129,6 +183,8 @@
 		AE7EB5FF201C172B000AB1EF /* HackatonFintech */ = {
 			isa = PBXGroup;
 			children = (
+				AE7EB637201C2D43000AB1EF /* Controllers */,
+				AE7EB636201C2CD4000AB1EF /* ResourcesSiesta */,
 				AE7EB600201C172B000AB1EF /* AppDelegate.swift */,
 				AE7EB602201C172B000AB1EF /* ViewController.swift */,
 				AE7EB604201C172B000AB1EF /* Main.storyboard */,
@@ -156,6 +212,38 @@
 				AE7EB625201C172C000AB1EF /* Info.plist */,
 			);
 			path = HackatonFintechUITests;
+			sourceTree = "<group>";
+		};
+		AE7EB636201C2CD4000AB1EF /* ResourcesSiesta */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EB65C201C3AD7000AB1EF /* API.swift */,
+			);
+			path = ResourcesSiesta;
+			sourceTree = "<group>";
+		};
+		AE7EB637201C2D43000AB1EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EB638201C2D51000AB1EF /* SigninController.swift */,
+				AE7EB63B201C2D95000AB1EF /* SinupController.swift */,
+				AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */,
+				AE7EB660201CDABA000AB1EF /* ChargePayController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE7EB640201C34B5000AB1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EB648201C34B5000AB1EF /* Alamofire.framework */,
+				AE7EB64A201C34B5000AB1EF /* Pods_HackatonFintech.framework */,
+				AE7EB64C201C34B5000AB1EF /* Pods_HackatonFintechTests.framework */,
+				AE7EB64E201C34B5000AB1EF /* Pods_HackatonFintechUITests.framework */,
+				AE7EB650201C34B5000AB1EF /* Siesta.framework */,
+				AE7EB659201C38AF000AB1EF /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BB32BE31083DD4758807E33F /* Pods */ = {
@@ -273,6 +361,12 @@
 			mainGroup = AE7EB5F4201C172B000AB1EF;
 			productRefGroup = AE7EB5FE201C172B000AB1EF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE7EB640201C34B5000AB1EF /* Products */;
+					ProjectRef = AE7EB63F201C34B5000AB1EF /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AE7EB5FC201C172B000AB1EF /* HackatonFintech */,
@@ -281,6 +375,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE7EB648201C34B5000AB1EF /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = AE7EB647201C34B5000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7EB64A201C34B5000AB1EF /* Pods_HackatonFintech.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_HackatonFintech.framework;
+			remoteRef = AE7EB649201C34B5000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7EB64C201C34B5000AB1EF /* Pods_HackatonFintechTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_HackatonFintechTests.framework;
+			remoteRef = AE7EB64B201C34B5000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7EB64E201C34B5000AB1EF /* Pods_HackatonFintechUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_HackatonFintechUITests.framework;
+			remoteRef = AE7EB64D201C34B5000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7EB650201C34B5000AB1EF /* Siesta.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Siesta.framework;
+			remoteRef = AE7EB64F201C34B5000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE7EB659201C38AF000AB1EF /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = AE7EB658201C38AF000AB1EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AE7EB5FB201C172B000AB1EF /* Resources */ = {
@@ -335,11 +474,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-HackatonFintech/Pods-HackatonFintech-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +609,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7EB609201C172B000AB1EF /* HackatonFintech.xcdatamodeld in Sources */,
+				AE7EB63C201C2D95000AB1EF /* SinupController.swift in Sources */,
+				AE7EB639201C2D51000AB1EF /* SigninController.swift in Sources */,
 				AE7EB603201C172B000AB1EF /* ViewController.swift in Sources */,
+				AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */,
+				AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */,
+				AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */,
 				AE7EB601201C172B000AB1EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
