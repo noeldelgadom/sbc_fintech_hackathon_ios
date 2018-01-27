@@ -26,7 +26,10 @@ class QRReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDe
         resetAnimation()
         animateQrView()
     }
-
+    @IBAction func back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         NotificationCenter.default.addObserver(self, selector: #selector(cameBackFromSleep), name: Notification.Name.UIApplicationDidBecomeActive, object: nil)
         let captureDevice = AVCaptureDevice.default(for: AVMediaType.video)
@@ -61,6 +64,10 @@ class QRReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDe
         self.qrFrameView.bringSubview(toFront: qrCodeFrameView!)
         self.qrFrameView.bringSubview(toFront: self.scanningAnimationView)
         originalAnimationFrame = self.scanningAnimationView.frame
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.animateQrView()
     }
     
     func animateQrView () {

@@ -32,7 +32,7 @@ class SigninController:UIViewController, UITextFieldDelegate{
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
-        print(textField)
+ 
         self.view.endEditing(true)
         return false;
     }

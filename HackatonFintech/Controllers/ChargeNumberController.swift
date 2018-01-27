@@ -1,19 +1,26 @@
 //
-//  SinupController.swift
+//  ChargeNumberController.swift
 //  HackatonFintech
 //
-//  Created by Victor Manuel Castillo Torres on 1/26/18.
+//  Created by Victor Manuel Castillo Torres on 1/27/18.
 //  Copyright © 2018 HackatonFintech. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class SignupController: UIViewController, UITextFieldDelegate{
+class ChargeNumberController:UIViewController, UITextFieldDelegate{
+    @IBOutlet weak var numberInput: UITextField!
     
-    @IBAction func dismissScreen(_ sender: Any) {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        numberInput.keyboardType = .decimalPad
+    }
+    @IBAction func back(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
         self.view.endEditing(true)
         return false;

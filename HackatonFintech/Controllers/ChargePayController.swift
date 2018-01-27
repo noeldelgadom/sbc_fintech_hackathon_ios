@@ -19,6 +19,8 @@ class ChargePayController: UIViewController{
 //        })
     }
     
+  
+    
     func authenticate(successAuth: @escaping () -> Void, failure: @escaping (NSError?) -> Void) {
         // 1. Create a authentication context
         let authenticationContext = LAContext()

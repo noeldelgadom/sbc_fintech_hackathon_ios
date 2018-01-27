@@ -24,6 +24,7 @@
 		AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB65C201C3AD7000AB1EF /* API.swift */; };
 		AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */; };
 		AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB660201CDABA000AB1EF /* ChargePayController.swift */; };
+		AE7EB663201CE125000AB1EF /* ChargeNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,7 @@
 		AE7EB65C201C3AD7000AB1EF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
 		AE7EB660201CDABA000AB1EF /* ChargePayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePayController.swift; sourceTree = "<group>"; };
+		AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeNumberController.swift; sourceTree = "<group>"; };
 		EC478E7FCD50E49D451595E0 /* Pods-HackatonFintechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackatonFintechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackatonFintechTests/Pods-HackatonFintechTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -229,6 +231,7 @@
 				AE7EB63B201C2D95000AB1EF /* SinupController.swift */,
 				AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */,
 				AE7EB660201CDABA000AB1EF /* ChargePayController.swift */,
+				AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */,
 				AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */,
 				AE7EB601201C172B000AB1EF /* AppDelegate.swift in Sources */,
+				AE7EB663201CE125000AB1EF /* ChargeNumberController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
