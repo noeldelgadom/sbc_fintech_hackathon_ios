@@ -65,7 +65,7 @@ class SigninController:UIViewController, UITextFieldDelegate, ResourceObserver{
         _API.companies.addObserver(statusOverlay)
         _API.getCompany(1).request(.get).onSuccess({(entity) in
             let json_content = entity.content as! [String:Any]
-            self.saveIntoUserDefaults(name: json_content["name"] as! String, id: json_content["id"] as! Int, type: "User")
+            self.saveIntoUserDefaults(name: json_content["name"] as! String, id: json_content["id"] as! Int, type: "Company")
             DispatchQueue.main.async {
                 self.performSegue(withIdentifier: "mainScreenSegue", sender: nil)
             }
@@ -85,7 +85,7 @@ class SigninController:UIViewController, UITextFieldDelegate, ResourceObserver{
     func validatePasswordAndEmail() -> Bool{
         if((emailField.text?.isEmpty)! ||  (passwordField.text?.isEmpty)!){
             self.showError(msg: "Email y Contraseña son obligatorios")
-            return false
+            return false fjajkffjkaa      fa fda fa f adaf                                             
         }
         return true
     }

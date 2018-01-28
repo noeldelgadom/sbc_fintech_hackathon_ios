@@ -111,12 +111,6 @@ class PayController:UIViewController{
         case LAError.systemCancel.rawValue:
             message = "La autenticación fue cancelada por el sistema"
             
-        case LAError.biometryLockout.rawValue:
-            message = "Demasiados intentos fallidos"
-            
-        case LAError.biometryNotAvailable.rawValue:
-            message = "TouchID o FaceID no disponibles en el dispositivo"
-            
         case LAError.userCancel.rawValue:
             message = "El usuario canceló"
             

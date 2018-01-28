@@ -24,7 +24,6 @@ class MovementsController:UIViewController, UITableViewDataSource, UITableViewDe
         cell.concept.text = (movements[indexPath.row]["tr_description"] as! String)
         cell.date.text = (movements[indexPath.row]["tr_date"] as! String)
         var price = movements[indexPath.row]["tr_amount"] as! Int
-        
         if( price < 0){
             price = price * -1
             cell.movementType.text = "Pago"
