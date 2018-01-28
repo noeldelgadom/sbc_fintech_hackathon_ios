@@ -1,3 +1,5 @@
+Dinub iOS application
+
 Startupbootcamp FinTech Hackathon Jan2018 IOS Application
 
 In order to set-up the project you need an Xcode 8 or 9, an iPhone or emulatror with iOs 10.3 or greater.
