@@ -1,27 +1,29 @@
-Dinub iOS application
+# Dinub iOS application
 
 Startupbootcamp FinTech Hackathon Jan2018 IOS Application
 
-In order to set-up the project you need an Xcode 8 or 9, an iPhone or emulatror with iOs 10.3 or greater.
+## Setup
+In order to set-up the project you need an Xcode 8 or 9, an iPhone or emulatror with iOs 10.3 or greater. Then follow these steps
 
-Download the project and open it in XCode
+1. Download the project and open it in XCode
+2. Install CocoaPods to install the dependencies: gem install cocoapods
+3. Open a terminal, go to the project and install the dependencies with "pod install"
+4. Build and run the project on your mobile.
 
-Install CocoaPods to isntall the dependencies: `gem install cocoapods`
+## Sample Business Login
 
-Open a terminal, go to the project and install the dependencies with "pod install"
+* Email: negocio@email.com
+* PWD: 123
 
-Build and run the project on your mobile.
+## Sample User Login
 
-In order to enter as a business use the next credentials:
+* Email: usuario@email.com
+* PWD: 123
 
-Email: negocio@email.com
-PWD: 123
+## Backend
 
-In order to enter as a user to pay the business use the next credentials:
+https://github.com/noeldelgadom/sbc_fintech_hackathon_api
 
-Email: usuario@email.com
-PWD: 123
+## Support: 
 
-This project was donde for the sake of the Hackaton.
-
-Support: vmct18@gmail.com
+vmct18@gmail.com
