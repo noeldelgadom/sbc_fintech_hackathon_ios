@@ -85,7 +85,7 @@ class SigninController:UIViewController, UITextFieldDelegate, ResourceObserver{
     func validatePasswordAndEmail() -> Bool{
         if((emailField.text?.isEmpty)! ||  (passwordField.text?.isEmpty)!){
             self.showError(msg: "Email y Contraseña son obligatorios")
-            return false fjajkffjkaa      fa fda fa f adaf                                             
+            return false                                   
         }
         return true
     }
