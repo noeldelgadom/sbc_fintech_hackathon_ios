@@ -79,6 +79,7 @@ class SigninController:UIViewController, UITextFieldDelegate, ResourceObserver{
         defaults.set(name, forKey: "name")
         defaults.set(id, forKey: "id")
         defaults.set(type,forKey: "type")
+        defaults.set(self.emailField.text!,forKey: "email")
     }
     
     func validatePasswordAndEmail() -> Bool{

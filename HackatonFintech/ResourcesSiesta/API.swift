@@ -16,6 +16,7 @@ class API {
     
     var users: Resource {return service.resource("/users")}
     var companies: Resource {return service.resource("/companies")}
+    var transfers: Resource {return service.resource("/transfers")}
     
     // MARK: - Configuration
     
@@ -60,6 +61,12 @@ class API {
     
     func getCompartamosAccountForUser(_ userID: Int) -> Resource{
         return service.resource("/users/\(userID)/balance")
+    }
+    func getCompaniesStatement(_ companyID: Int) -> Resource{
+        return service.resource("/companies/\(companyID)/statement")
+    }
+    func getUsersStatement(_ userID: Int) -> Resource{
+        return service.resource("/users/\(userID)/statement")
     }
     
 }

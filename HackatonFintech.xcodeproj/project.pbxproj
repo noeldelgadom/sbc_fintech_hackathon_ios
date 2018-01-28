@@ -30,6 +30,11 @@
 		AE7EB66A201D40AD000AB1EF /* SelectAccountCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */; };
 		AE7EB66C201D4598000AB1EF /* ScanQRControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */; };
 		AE7EB66E201D5436000AB1EF /* SelectAccountPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */; };
+		AE7EB670201D6150000AB1EF /* PayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB66F201D6150000AB1EF /* PayController.swift */; };
+		AE7EB672201D79D4000AB1EF /* ProcessingPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB671201D79D4000AB1EF /* ProcessingPaymentController.swift */; };
+		AE7EB674201D836A000AB1EF /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB673201D836A000AB1EF /* ProfileController.swift */; };
+		AE7EB676201D83C8000AB1EF /* ListAccountsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB675201D83C8000AB1EF /* ListAccountsController.swift */; };
+		AE7EB678201D8403000AB1EF /* MovementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB677201D8403000AB1EF /* MovementsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +132,11 @@
 		AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountCharge.swift; sourceTree = "<group>"; };
 		AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRControlller.swift; sourceTree = "<group>"; };
 		AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountPay.swift; sourceTree = "<group>"; };
+		AE7EB66F201D6150000AB1EF /* PayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayController.swift; sourceTree = "<group>"; };
+		AE7EB671201D79D4000AB1EF /* ProcessingPaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingPaymentController.swift; sourceTree = "<group>"; };
+		AE7EB673201D836A000AB1EF /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		AE7EB675201D83C8000AB1EF /* ListAccountsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAccountsController.swift; sourceTree = "<group>"; };
+		AE7EB677201D8403000AB1EF /* MovementsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementsController.swift; sourceTree = "<group>"; };
 		EC478E7FCD50E49D451595E0 /* Pods-HackatonFintechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackatonFintechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackatonFintechTests/Pods-HackatonFintechTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,6 +257,11 @@
 				AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */,
 				AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */,
 				AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */,
+				AE7EB66F201D6150000AB1EF /* PayController.swift */,
+				AE7EB671201D79D4000AB1EF /* ProcessingPaymentController.swift */,
+				AE7EB673201D836A000AB1EF /* ProfileController.swift */,
+				AE7EB675201D83C8000AB1EF /* ListAccountsController.swift */,
+				AE7EB677201D8403000AB1EF /* MovementsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -635,6 +650,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7EB668201D3C2B000AB1EF /* Util.swift in Sources */,
+				AE7EB672201D79D4000AB1EF /* ProcessingPaymentController.swift in Sources */,
+				AE7EB678201D8403000AB1EF /* MovementsController.swift in Sources */,
 				AE7EB609201C172B000AB1EF /* HackatonFintech.xcdatamodeld in Sources */,
 				AE7EB665201D2E52000AB1EF /* ChargeTypeController.swift in Sources */,
 				AE7EB66A201D40AD000AB1EF /* SelectAccountCharge.swift in Sources */,
@@ -642,12 +659,15 @@
 				AE7EB63C201C2D95000AB1EF /* SinupController.swift in Sources */,
 				AE7EB639201C2D51000AB1EF /* SigninController.swift in Sources */,
 				AE7EB603201C172B000AB1EF /* ViewController.swift in Sources */,
+				AE7EB670201D6150000AB1EF /* PayController.swift in Sources */,
 				AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */,
+				AE7EB676201D83C8000AB1EF /* ListAccountsController.swift in Sources */,
 				AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */,
 				AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */,
 				AE7EB601201C172B000AB1EF /* AppDelegate.swift in Sources */,
 				AE7EB66E201D5436000AB1EF /* SelectAccountPay.swift in Sources */,
 				AE7EB663201CE125000AB1EF /* ChargeNumberController.swift in Sources */,
+				AE7EB674201D836A000AB1EF /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

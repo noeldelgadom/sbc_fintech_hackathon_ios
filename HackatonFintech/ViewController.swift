@@ -16,8 +16,14 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        //sleep(4)
-        self.performSegue(withIdentifier: "signInSegue", sender: nil)
+        sleep(3)
+        let defaults = UserDefaults.standard
+        if let id = defaults.string(forKey: "id"){
+            self.performSegue(withIdentifier: "mainScreenSegue", sender: nil)
+        }else{
+            self.performSegue(withIdentifier: "signInSegue", sender: nil)
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,5 +1,5 @@
 //
-//  SelectAccountPay.swift
+//  ListAccountsController.swift
 //  HackatonFintech
 //
 //  Created by Victor Manuel Castillo Torres on 1/27/18.
@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class SelectAccountPay:UIViewController{
+class ListAccountsController:UIViewController{
+    
     
     @IBAction func backPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
 }

@@ -48,7 +48,6 @@ class ChargeNumberController:UIViewController, UITextFieldDelegate{
                                                     let json_content = entity.content as! [String:String]
                                                     controller.url = json_content["qr_url"]!
                                                     self.present(controller, animated: true, completion: nil)
-                                                    print(entity.content)
                                                 }
                                             })
     }

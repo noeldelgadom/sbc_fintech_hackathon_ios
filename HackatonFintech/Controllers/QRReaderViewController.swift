@@ -92,7 +92,26 @@ class QRReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDe
         
         if metadataObj.type == AVMetadataObject.ObjectType.qr{
             let barCodeObject = videoPreviewLayer?.transformedMetadataObject(for: metadataObj) as! AVMetadataMachineReadableCodeObject
-            print(barCodeObject.stringValue)
+            if let qrText = barCodeObject.stringValue{
+                let elements = qrText.split(separator: ";")
+                let type = elements[0]
+                let recordID = elements[1]
+                let accountNumberCompartamos = elements[2]
+                let concept = elements[3]
+                let ammount = elements[4]
+                let currency = elements[5]
+                let storyboardName = "Main"
+                let viewControllerID = "payViewController"
+                let storyboard = UIStoryboard(name: storyboardName, bundle:nil)
+                let controller = storyboard.instantiateViewController(withIdentifier: viewControllerID) as! PayController
+                controller.typeToPay = String(type)
+                controller.recordID = String(recordID)
+                controller.accountNumberCompartamos = String(accountNumberCompartamos)
+                controller.concept = String(concept)
+                controller.ammount = String(ammount)
+                controller.currency = String(currency)
+                self.present(controller, animated: true, completion: nil)
+            }
 //            qrCodeFrameView?.frame = barCodeObject.bounds
             
         }
