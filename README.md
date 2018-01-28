@@ -24,6 +24,6 @@ In order to set-up the project you need an Xcode 8 or 9, an iPhone or emulatror 
 
 https://github.com/noeldelgadom/sbc_fintech_hackathon_api
 
-## Support: 
+## Support
 
 vmct18@gmail.com
