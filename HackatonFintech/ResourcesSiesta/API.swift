@@ -10,20 +10,60 @@ import Foundation
 import Siesta
 import SwiftyJSON
 
-class API: Service{
-    var signin: Resource { return resource("/signin") }
+let _API = API()
+
+class API {
     
-    private init(){
-        super.init(baseURL: "https://facebook.com")
+    var users: Resource {return service.resource("/users")}
+    var companies: Resource {return service.resource("/companies")}
+    
+    // MARK: - Configuration
+    
+    private let service = Service(
+        baseURL: "https://dinub-api.herokuapp.com",
+        standardTransformers: [.json]
+    )
+    
+    fileprivate init() {
+        // –––––– Global configuration ––––––
         
-        self.configure {
-            $0.pipeline[.parsing].add(SwiftyJSONTransformer, contentTypes: ["*/json"])
+        #if DEBUG
+            LogCategory.enabled = [.network]
+        #endif
+        
+        service.configure {
+//            $0.pipeline[.parsing].add(SwiftyJSONTransformer, contentTypes: ["*/json"])
             $0.expirationTime = 3600
         }
     }
     
+    // MARK: - Resource Accessors
+    func ping() -> Resource {
+        return service.resource("/users")
+    }
+    
+    func getUser(_ userID: Int) -> Resource{
+        return service.resource("/users/\(userID)")
+    }
+    
+    func getCompany(_ userCompany: Int) -> Resource{
+        return service.resource("/companies/\(userCompany)")
+    }
+    
+    func qrCode() -> Resource{
+        return service.resource("/create_qr_code/")
+    }
+    
+    func getCompartamosAccountForCompany(_ companyID: Int) -> Resource{
+        return service.resource("/companies/\(companyID)/balance")
+    }
+    
+    func getCompartamosAccountForUser(_ userID: Int) -> Resource{
+        return service.resource("/users/\(userID)/balance")
+    }
+    
 }
-
 private let SwiftyJSONTransformer =
     ResponseContentTransformer
-        {JSON($0.content as AnyObject)}
+        {JSON($0.content as [String:Any])}
+

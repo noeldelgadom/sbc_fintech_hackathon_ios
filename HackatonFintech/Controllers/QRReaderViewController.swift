@@ -92,7 +92,8 @@ class QRReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDe
         
         if metadataObj.type == AVMetadataObject.ObjectType.qr{
             let barCodeObject = videoPreviewLayer?.transformedMetadataObject(for: metadataObj) as! AVMetadataMachineReadableCodeObject
-            qrCodeFrameView?.frame = barCodeObject.bounds
+            print(barCodeObject.stringValue)
+//            qrCodeFrameView?.frame = barCodeObject.bounds
             
         }
     }

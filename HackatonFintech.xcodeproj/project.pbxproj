@@ -25,6 +25,11 @@
 		AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */; };
 		AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB660201CDABA000AB1EF /* ChargePayController.swift */; };
 		AE7EB663201CE125000AB1EF /* ChargeNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */; };
+		AE7EB665201D2E52000AB1EF /* ChargeTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB664201D2E52000AB1EF /* ChargeTypeController.swift */; };
+		AE7EB668201D3C2B000AB1EF /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB667201D3C2B000AB1EF /* Util.swift */; };
+		AE7EB66A201D40AD000AB1EF /* SelectAccountCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */; };
+		AE7EB66C201D4598000AB1EF /* ScanQRControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */; };
+		AE7EB66E201D5436000AB1EF /* SelectAccountPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +122,11 @@
 		AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
 		AE7EB660201CDABA000AB1EF /* ChargePayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargePayController.swift; sourceTree = "<group>"; };
 		AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeNumberController.swift; sourceTree = "<group>"; };
+		AE7EB664201D2E52000AB1EF /* ChargeTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeTypeController.swift; sourceTree = "<group>"; };
+		AE7EB667201D3C2B000AB1EF /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountCharge.swift; sourceTree = "<group>"; };
+		AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRControlller.swift; sourceTree = "<group>"; };
+		AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAccountPay.swift; sourceTree = "<group>"; };
 		EC478E7FCD50E49D451595E0 /* Pods-HackatonFintechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackatonFintechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackatonFintechTests/Pods-HackatonFintechTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +195,7 @@
 		AE7EB5FF201C172B000AB1EF /* HackatonFintech */ = {
 			isa = PBXGroup;
 			children = (
+				AE7EB666201D3C19000AB1EF /* Utils */,
 				AE7EB637201C2D43000AB1EF /* Controllers */,
 				AE7EB636201C2CD4000AB1EF /* ResourcesSiesta */,
 				AE7EB600201C172B000AB1EF /* AppDelegate.swift */,
@@ -232,6 +243,10 @@
 				AE7EB65E201CC446000AB1EF /* QRReaderViewController.swift */,
 				AE7EB660201CDABA000AB1EF /* ChargePayController.swift */,
 				AE7EB662201CE125000AB1EF /* ChargeNumberController.swift */,
+				AE7EB664201D2E52000AB1EF /* ChargeTypeController.swift */,
+				AE7EB669201D40AD000AB1EF /* SelectAccountCharge.swift */,
+				AE7EB66B201D4598000AB1EF /* ScanQRControlller.swift */,
+				AE7EB66D201D5436000AB1EF /* SelectAccountPay.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -247,6 +262,14 @@
 				AE7EB659201C38AF000AB1EF /* SwiftyJSON.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7EB666201D3C19000AB1EF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EB667201D3C2B000AB1EF /* Util.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		BB32BE31083DD4758807E33F /* Pods */ = {
@@ -611,7 +634,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7EB668201D3C2B000AB1EF /* Util.swift in Sources */,
 				AE7EB609201C172B000AB1EF /* HackatonFintech.xcdatamodeld in Sources */,
+				AE7EB665201D2E52000AB1EF /* ChargeTypeController.swift in Sources */,
+				AE7EB66A201D40AD000AB1EF /* SelectAccountCharge.swift in Sources */,
+				AE7EB66C201D4598000AB1EF /* ScanQRControlller.swift in Sources */,
 				AE7EB63C201C2D95000AB1EF /* SinupController.swift in Sources */,
 				AE7EB639201C2D51000AB1EF /* SigninController.swift in Sources */,
 				AE7EB603201C172B000AB1EF /* ViewController.swift in Sources */,
@@ -619,6 +646,7 @@
 				AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */,
 				AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */,
 				AE7EB601201C172B000AB1EF /* AppDelegate.swift in Sources */,
+				AE7EB66E201D5436000AB1EF /* SelectAccountPay.swift in Sources */,
 				AE7EB663201CE125000AB1EF /* ChargeNumberController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
