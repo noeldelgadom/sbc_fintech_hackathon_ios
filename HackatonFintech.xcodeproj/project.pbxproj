@@ -35,6 +35,7 @@
 		AE7EB674201D836A000AB1EF /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB673201D836A000AB1EF /* ProfileController.swift */; };
 		AE7EB676201D83C8000AB1EF /* ListAccountsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB675201D83C8000AB1EF /* ListAccountsController.swift */; };
 		AE7EB678201D8403000AB1EF /* MovementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB677201D8403000AB1EF /* MovementsController.swift */; };
+		AE7EB682201D8E95000AB1EF /* MovementsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EB681201D8E95000AB1EF /* MovementsTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		AE7EB673201D836A000AB1EF /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		AE7EB675201D83C8000AB1EF /* ListAccountsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAccountsController.swift; sourceTree = "<group>"; };
 		AE7EB677201D8403000AB1EF /* MovementsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementsController.swift; sourceTree = "<group>"; };
+		AE7EB681201D8E95000AB1EF /* MovementsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementsTableCell.swift; sourceTree = "<group>"; };
 		EC478E7FCD50E49D451595E0 /* Pods-HackatonFintechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackatonFintechTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackatonFintechTests/Pods-HackatonFintechTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,6 +207,7 @@
 		AE7EB5FF201C172B000AB1EF /* HackatonFintech */ = {
 			isa = PBXGroup;
 			children = (
+				AE7EB67E201D8E35000AB1EF /* TablesView */,
 				AE7EB666201D3C19000AB1EF /* Utils */,
 				AE7EB637201C2D43000AB1EF /* Controllers */,
 				AE7EB636201C2CD4000AB1EF /* ResourcesSiesta */,
@@ -285,6 +288,14 @@
 				AE7EB667201D3C2B000AB1EF /* Util.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE7EB67E201D8E35000AB1EF /* TablesView */ = {
+			isa = PBXGroup;
+			children = (
+				AE7EB681201D8E95000AB1EF /* MovementsTableCell.swift */,
+			);
+			path = TablesView;
 			sourceTree = "<group>";
 		};
 		BB32BE31083DD4758807E33F /* Pods */ = {
@@ -662,6 +673,7 @@
 				AE7EB670201D6150000AB1EF /* PayController.swift in Sources */,
 				AE7EB661201CDABA000AB1EF /* ChargePayController.swift in Sources */,
 				AE7EB676201D83C8000AB1EF /* ListAccountsController.swift in Sources */,
+				AE7EB682201D8E95000AB1EF /* MovementsTableCell.swift in Sources */,
 				AE7EB65D201C3AD7000AB1EF /* API.swift in Sources */,
 				AE7EB65F201CC446000AB1EF /* QRReaderViewController.swift in Sources */,
 				AE7EB601201C172B000AB1EF /* AppDelegate.swift in Sources */,
