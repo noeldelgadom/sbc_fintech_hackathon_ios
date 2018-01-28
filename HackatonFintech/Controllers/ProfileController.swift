@@ -21,4 +21,8 @@ class ProfileController:UIViewController{
         let defaults = UserDefaults.standard
         self.email.text = defaults.string(forKey: "email")!
     }
+    @IBAction func signOut(_ sender: Any) {
+        UserDefaults.standard.setPersistentDomain(Dictionary.init(), forName: Bundle.main.bundleIdentifier!)
+        self.performSegue(withIdentifier: "signoutSegue", sender: nil)
+    }
 }

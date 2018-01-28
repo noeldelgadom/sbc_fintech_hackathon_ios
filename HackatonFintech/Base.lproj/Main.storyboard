@@ -157,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAo-Y4-W9K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2338" y="2384"/>
+            <point key="canvasLocation" x="1087" y="2232"/>
         </scene>
         <!--succesfulPayment-->
         <scene sceneID="KB4-1W-hWz">
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybd-kC-lJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2174" y="1619"/>
+            <point key="canvasLocation" x="3943" y="2078"/>
         </scene>
         <!--Reader View Controller-->
         <scene sceneID="ecD-gP-LIs">
@@ -740,6 +740,9 @@
                                 <rect key="frame" x="105" y="590" width="164" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cerrar sesión"/>
+                                <connections>
+                                    <action selector="signOut:" destination="6pR-k3-JaZ" eventType="touchUpInside" id="5q5-xZ-RQ6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WqU-Wg-lu4">
                                 <rect key="frame" x="308" y="31" width="42" height="25"/>
@@ -762,6 +765,7 @@
                     </view>
                     <connections>
                         <outlet property="email" destination="XH2-Rk-Jdm" id="sVE-xt-noT"/>
+                        <segue destination="yB9-PL-dl6" kind="show" identifier="signoutSegue" id="gvb-uN-Vut"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Wk-ET-1Tw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1768,7 +1772,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LCF-13-kL7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3063" y="3235"/>
+            <point key="canvasLocation" x="2702" y="2508"/>
         </scene>
     </scenes>
     <resources>
@@ -1803,8 +1807,9 @@
         <image name="white_card" width="80" height="58"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="647-3r-Nb5"/>
+        <segue reference="ehP-SD-Nm3"/>
         <segue reference="agF-0f-l45"/>
         <segue reference="oXr-du-cJg"/>
+        <segue reference="gvb-uN-Vut"/>
     </inferredMetricsTieBreakers>
 </document>
